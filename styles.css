@@ -1,0 +1,148 @@
+/* Code By MohammadAliJavaheri */
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.tip {
+    
+    background-color: aliceblue;
+}
+
+h3 {
+
+    text-align: center;
+    color: black;
+}
+
+.all-in {
+
+    box-sizing: border-box;
+    background-color: #78909C;
+}
+
+* {
+
+    box-sizing: border-box;
+    background-color: #78909C;
+}
+
+li, a, button {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo {
+
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav-bar {
+
+    list-style: none;
+}
+
+.nav-bar li {
+
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-bar li a {
+
+    transition: all .03s ease 0s;
+}
+
+.nav-bar li a:hover {
+
+    color: cadetblue;
+}
+
+.btn {
+
+    padding: 9px 25px;
+    border-radius: 25px;
+    border: 0;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+
+.btn:hover {
+    
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* code for footer from web */
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
